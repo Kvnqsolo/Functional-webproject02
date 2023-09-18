@@ -143,3 +143,18 @@ button:hover{
     opacity: 0.8;
     animation: ease-in-out;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+    
+    .sub-form {
+        width: 90%; /* Adjust width for mobile */
+        max-width: none; /* Remove max-width */
+        margin: 10px; /* Add spacing around the form */
+    }
+    
+    input {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+}
